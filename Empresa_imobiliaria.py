@@ -40,7 +40,7 @@ while esc1 != "S":
 
                 parcela_imovel = str(input("Desejas parcelar: ").upper())
                 if parcela_imovel == "S":
-                    parcela_imovel_qnt = int(input("Quantas parcelas MÁXIMO 12: ").upper())
+                    parcela_imovel_qnt = int(input("Quantas parcelas MÁXIMO 5: ").upper())
                 else:
                     parcela_imovel_qnt = 0
                 valor_imovel = calc_parcelas(valor_imovel, parcela_imovel_qnt)
@@ -67,7 +67,7 @@ while esc1 != "S":
 
                 parcela_imovel = str(input("Desejas parcelar: ").upper())
                 if parcela_imovel == "S":
-                    parcela_imovel_qnt = int(input("Quantas parcelas MÁXIMO 12: "))
+                    parcela_imovel_qnt = int(input("Quantas parcelas MÁXIMO 5: "))
                 else:
                     parcela_imovel_qnt = 0
                     valor_imovel = calc_parcelas(valor_imovel, parcela_imovel_qnt)
@@ -96,7 +96,7 @@ while esc1 != "S":
 
                 parcela_imovel = str(input("Desejas parcelar: ").upper())
                 if parcela_imovel == "S":
-                    parcela_imovel_qnt = int(input("Quantas parcelas MÁXIMO 12: "))
+                    parcela_imovel_qnt = int(input("Quantas parcelas MÁXIMO 5: "))
                 else:
                     parcela_imovel_qnt = 0
 
@@ -123,4 +123,5 @@ while esc1 != "S":
 
 print()
 print("Obrigado por ter usado o sistema...")
+
 print()
